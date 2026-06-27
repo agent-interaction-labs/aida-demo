@@ -80,6 +80,9 @@ No hosted signing authority. No API keys. No blockchain. Just Ed25519 + RFC 9421
 
 ## Related
 
-- [aida-agent](../aida-agent) — Agent SDK for signing requests
-- [aida-verify](../aida-verify) — Server SDK for verifying agent identity
+- [aida-typescript-sdk](../aida-typescript-sdk) — Official TypeScript SDK monorepo for `@aida/attest` and `@aida/verify`
 - [aida-spec](../aida-spec) — Protocol specification
+
+---
+
+**Built by [Agent Interaction Labs](https://github.com/agent-interaction-labs)** — opening the web to agentic interaction.

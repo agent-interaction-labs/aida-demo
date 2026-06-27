@@ -1,0 +1,17 @@
+{
+  "name": "aida-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "End-to-end demonstration of AIDA Web Agent Identity — agent signs, website verifies",
+  "type": "module",
+  "scripts": {
+    "install-deps": "cd ../aida-agent && npm install && cd ../aida-verify && npm install",
+    "server": "npx tsx server.mjs",
+    "agent": "npx tsx agent.mjs",
+    "demo": "echo 'Run in two terminals: npm run server and npm run agent'"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "tsx": "^4.22.4"
+  }
+}

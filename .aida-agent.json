@@ -1,0 +1,18 @@
+{
+  "publicKey": "CuWWs6PBUgL1nm9TMaww3LTcp1tmu8RzEgzjHxc2DxAY",
+  "privateKey": "F5QNs5Ae36YPeKMz5YMqCygpoXoGG3bWp13784pJBUEP",
+  "controller": {
+    "email": "alice@example.com",
+    "dns": "alice-demo.example.com"
+  },
+  "endpoints": [
+    {
+      "url": "http://localhost:3001/.well-known/aida",
+      "protocol": "mcp"
+    }
+  ],
+  "capabilities": [
+    "web-browsing",
+    "data-retrieval"
+  ]
+}

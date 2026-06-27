@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "install-deps": "cd ../aida-typescript-sdk && npm install",
-    "server": "npx tsx server.mjs",
-    "agent": "npx tsx agent.mjs",
-    "demo": "echo 'Run in two terminals: npm run server and npm run agent'"
+    "verify": "npx tsx verify.mjs",
+    "attest": "npx tsx attest.mjs",
+    "demo": "echo 'Run in two terminals: npm run verify and npm run attest'"
   },
   "dependencies": {
     "express": "^4.21.0",

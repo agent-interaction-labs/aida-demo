@@ -4,7 +4,7 @@
  * Express server with @aida/verify middleware. Every request is checked
  * for AIDA agent identity. Protected endpoint requires verified identity.
  *
- * Usage: node server.mjs
+ * Usage: node verify.mjs
  */
 
 import express from 'express';

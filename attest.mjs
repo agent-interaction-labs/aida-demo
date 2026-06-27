@@ -4,7 +4,7 @@
  * Creates an agent identity, signs an HTTP request, and sends it to a
  * website that verifies the AIDA identity via @aida/verify middleware.
  *
- * Usage: node agent.mjs
+ * Usage: node attest.mjs
  */
 
 import { createAgent } from '../aida-typescript-sdk/packages/attest/src/index.ts';

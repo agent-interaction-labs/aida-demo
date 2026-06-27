@@ -8,7 +8,7 @@
  */
 
 import express from 'express';
-import { createMiddleware } from '../aida-verify/src/index.ts';
+import { createMiddleware } from '../aida-typescript-sdk/packages/verify/src/index.ts';
 
 const PORT = 3000;
 

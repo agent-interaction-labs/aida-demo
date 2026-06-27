@@ -7,7 +7,7 @@
  * Usage: node agent.mjs
  */
 
-import { createAgent } from '../aida-agent/src/index.ts';
+import { createAgent } from '../aida-typescript-sdk/packages/attest/src/index.ts';
 
 const BASE_URL = 'http://localhost:3000';
 
